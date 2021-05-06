@@ -6,12 +6,10 @@ import colors from '../styles/colors';
 
 export function PlantSelect(){
     return (
-        <SafeAreaView>
             <View style={styles.container}>
                 <Header/>
                 <Text>Selecionar planta</Text>
             </View>
-        </SafeAreaView>
         
     )
 }
